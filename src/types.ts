@@ -84,7 +84,7 @@ export interface Connection {
   city: string;
   country: string;
   latitude: number;
-  llongitude: number;
+longitude: number;
   connectionType: ConnectionType;
   meters: Meter[];
   consumption: ConsumptionDataPoint[];
